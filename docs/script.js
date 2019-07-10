@@ -14,13 +14,11 @@
 //   var transparentVideo = seeThru.create("#demo", { alphaMask: true });
 // }
 
-
-
-var video = seeThru.create('#demo', {
+var video = seeThru.create("#demo", {
   start: 'external',
+  // start: "clicktoplay",
+
   width: 620,
   height: 620
 });
 video.play();
-
-      
